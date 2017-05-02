@@ -134,16 +134,20 @@
 
 
 	<script>
-	function myMap() {
-	  var mapCanvas = document.getElementById("map");
-	  var mapOptions = {
-	    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-	  };
-	  var map = new google.maps.Map(mapCanvas, mapOptions);
-	}
+	<script type="text/javascript">
+	    function initMap() {
+	        var myLatLng = {lat: 49.834509, lng: 24.004080};
+
+	        // Create a map object and specify the DOM element for display.
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	            center: myLatLng,
+	            scrollwheel: false,
+	            zoom: 18
+	        });
+	    }
 	</script>
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-l5POeA7FgFpql5ag-kmFBXyCu4iA8sc&callback=initMap" async defer></script>
 
 	<script src="js/main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
