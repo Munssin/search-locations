@@ -260,3 +260,8 @@ nav {
   height: 100vh;
   width: 100%;
 }
+/* line 231, ../sass/main.scss */
+#map iframe {
+  height: 100vh;
+  width: 100%;
+}
