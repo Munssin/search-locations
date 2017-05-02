@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8">
+	<meta name="Keywords" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Main page</title>
+
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
+
+</head>
+<body>
+	<!-- row -->
+	<div class="row">
+		<!-- col-md-4 -->
+		<div class="col-md-4 i">
+			<!-- left-info -->
+			<div class="left-info">
+				<nav>
+					<div id="search">
+						<form class="search-form">
+						  <input type="search" value="" placeholder="Search..." class="search-input">
+						  <button type="submit" class="search-button">
+						    <i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+						  </button>
+						</form>
+					</div>
+
+					<div id="filters">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    Filters
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">filter1</a></li>
+						    <li><a href="#">filter2</a></li>
+						    <li><a href="#">filter3</a></li>
+						    <li><a href="#">filter4</a></li>
+								<li><a href="#">filter5</a></li>
+						  </ul>
+						</div>
+					</div>
+					<!-- login -->
+					<div id="login">
+						<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+							<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+				    	  <div class="modal-dialog">
+									<div class="loginmodal-container">
+								  	<form>
+											<div class="row">
+												<div class="col-md-6">
+												<div class="sign-in">
+													<h3>sign-in</h3>
+													<input type="text" name="user" placeholder="Email address">
+													<input type="password" name="pass" placeholder="Password">
+													<input type="submit" name="login" class="login loginmodal-submit" value="sign-in">
+												</div>
+												</div>
+												<div class="line"></div>
+												<div class="col-md-6">
+												<div class="sign-up">
+													<h3>sign-up</h3>
+													<input type="text" name="user" placeholder="First name">
+													<input type="text" name="user" placeholder="Last name">
+													<input type="text" name="user" placeholder="Username">
+													<input type="password" name="pass" placeholder="Password">
+													<input type="submit" name="login" class="login-sign-up loginmodal-submit" value="sign-up">
+												</div>
+												</div>
+											</div>
+								  	</form>
+								</div>
+							</div>
+					  </div>
+					</div>
+						<!-- login -->
+				</nav>
+				<div id="content">
+					<h1>Interesting to visit</h1>
+					<div class="item">
+						<div class="item1 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item2 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item3 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item4 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item5 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item6 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item7 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+						<div class="item8 item-b">
+							<img src="img/slide3.jpg" alt="">
+							<p>some text</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- left-info -->
+		</div>
+		<!-- col-md-4 -->
+		<!-- col-md-8 -->
+		<div class="col-md-8 a">
+			<div id="map"></div>
+		</div>
+		<!-- col-md-8 -->
+
+	</div>
+	<!-- row -->
+
+
+	<script>
+	function myMap() {
+	  var mapCanvas = document.getElementById("map");
+	  var mapOptions = {
+	    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+	  };
+	  var map = new google.maps.Map(mapCanvas, mapOptions);
+	}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+	<script src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

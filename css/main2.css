@@ -1,0 +1,80 @@
+/* line 2, ../sass/main2.scss */
+#content2 .main-img {
+  display: flex;
+  justify-content: center;
+}
+/* line 5, ../sass/main2.scss */
+#content2 .main-img img {
+  width: 350px;
+  height: 250px;
+  margin-bottom: 20px;
+  transition: 0.5s all;
+}
+/* line 11, ../sass/main2.scss */
+#content2 .main-img img:hover {
+  transform: scale(1.1);
+}
+/* line 16, ../sass/main2.scss */
+#content2 .info h3 {
+  text-align: center;
+  font-size: 26px;
+}
+/* line 20, ../sass/main2.scss */
+#content2 .info p {
+  text-align: left;
+  font-size: 14px;
+}
+/* line 25, ../sass/main2.scss */
+#content2 .interesting {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* line 29, ../sass/main2.scss */
+#content2 .interesting .row .content2-item {
+  padding-left: 30px;
+}
+/* line 32, ../sass/main2.scss */
+#content2 .interesting .row img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 15px;
+}
+/* line 37, ../sass/main2.scss */
+#content2 .interesting .row a {
+  text-align: center;
+  font-size: 14px;
+  color: grey;
+}
+/* line 42, ../sass/main2.scss */
+#content2 .interesting .row a:hover {
+  text-decoration: none;
+}
+/* line 48, ../sass/main2.scss */
+#content2 .reviews h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+/* line 53, ../sass/main2.scss */
+#content2 .reviews .vidguk {
+  max-width: 360px;
+  margin: 0 auto;
+}
+/* line 56, ../sass/main2.scss */
+#content2 .reviews .vidguk .user:before {
+  content: url(../img/12.png);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -55px;
+}
+/* line 63, ../sass/main2.scss */
+#content2 .reviews .vidguk .user {
+  position: relative;
+  font-size: 22px;
+}
+/* line 68, ../sass/main2.scss */
+#content2 .reviews .vidguk p {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
