@@ -72,3 +72,32 @@
     }
   }
 }
+#comments{
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+  .name-user{
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .part{
+    top: 1px;
+    position: absolute;
+    left: 30%;
+    font-size: 22px;
+  }
+  #comment-form{
+    .btn{
+      padding: 5px 15px;
+      margin-bottom: 50px;
+      margin-top: 15px;
+      font-size: 16px;
+      border-right: 7px;
+      background-color: #607fff;
+      color: #fff;
+    }
+    .btn:hover{
+      background-color: blue;
+    }
+  }
+}
