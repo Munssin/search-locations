@@ -9,7 +9,6 @@
 
 	<title>Main page</title>
 
-	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="">
@@ -33,18 +32,15 @@
 					</div>
 
 					<div id="filters">
-						<div class="dropdown">
-						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-						    Filters
-						    <span class="caret"></span>
-						  </button>
-						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						    <li><a href="#">filter1</a></li>
-						    <li><a href="#">filter2</a></li>
-						    <li><a href="#">filter3</a></li>
-						    <li><a href="#">filter4</a></li>
-								<li><a href="#">filter5</a></li>
-						  </ul>
+						<div class="btn-group">
+						  <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Filters <span class="caret"></span></button>
+						    <ul class="dropdown-menu noclose">
+						      <li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID"> Filter 1</label></li>
+									<li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID"> Filter 2</label></li>
+									<li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID"> Filter 3</label></li>
+									<li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID"> Filter 4</label></li>
+									<li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID"> Filter 5</label></li>
+						    </ul>
 						</div>
 					</div>
 					<!-- login -->
@@ -121,6 +117,17 @@
 				</div>
 			</div>
 			<!-- left-info -->
+			<div class="but">
+				<div class="b1">Special blue
+					<div class="blue"></div>
+				</div>
+				<div class="b2">Special white
+					<div class="white"></div>
+				</div>
+				<div class="b3">Special pink
+					<div class="pink"></div>
+				</div>
+			</div>
 		</div>
 		<!-- col-md-4 -->
 		<!-- col-md-8 -->
@@ -146,11 +153,8 @@
 	</script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
