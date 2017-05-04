@@ -98,6 +98,10 @@ nav{
 		text-decoration: none;
 		background-color: green;
 	}
+	.glyphicon{
+		cursor: pointer;
+		float: right;
+	}
 	.sign-in{
 		margin-left: -20px;
 		padding: 0 15px;
@@ -199,7 +203,7 @@ nav{
 
 }
 .line{
-	height: 400px;
+	height: 100%;
 	width: 2px;
 	background-color: grey;
 	position: absolute;
@@ -229,7 +233,7 @@ nav{
 			transition: 0.9s all;
 		}
 		img:hover{
-			transform: rotate(360deg) scale(1.3);
+			transform: scale(1.3);
 		}
 	}
 }

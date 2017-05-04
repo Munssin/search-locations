@@ -9,3 +9,7 @@ $(document).ready(function(){
         $("body").css({"background-color": "#fceaf4"});
     });
 });
+
+$(".glyphicon-remove").click(function(){
+  $("#login-modal").modal('hide');
+});
